@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField] private float Smoothing, minZoom = 10, maxZoom = 38;
+    [SerializeField] private float Smoothing;
     [SerializeField] private Vector3 diff;
     private GameObject camera;
     private Transform cameraT;

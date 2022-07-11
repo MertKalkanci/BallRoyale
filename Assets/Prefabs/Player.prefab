@@ -90,7 +90,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2920439801551572214}
   m_LocalRotation: {x: 0.24184473, y: 0.66446304, z: -0.24184473, w: 0.66446304}
-  m_LocalPosition: {x: -8, y: 8, z: 0}
+  m_LocalPosition: {x: -10, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -276,7 +276,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2920439802041584657}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 68f4c80495165f9459413dddf1505ca4, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ee21046f736014db612e406999427d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxSpeed: 6
+  MaxSpeed: 10
   movementForce: 100
   dampingForce: 10
   jumpForce: 5000
@@ -391,6 +391,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Smoothing: 5
-  minZoom: 10
-  maxZoom: 38
-  diff: {x: -8, y: 9, z: 0}
+  diff: {x: -10, y: 11, z: 0}
