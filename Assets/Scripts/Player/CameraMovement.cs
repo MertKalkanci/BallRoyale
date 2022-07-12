@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.InputSystem;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
@@ -19,5 +18,9 @@ public class CameraMovement : MonoBehaviour
         cameraT.position = Vector3.Lerp(cameraT.position,
             transform.position + diff,
             Smoothing * Time.deltaTime);
+    }
+    public void joinPlayer(PlayerInput input)
+    {
+
     }
 }

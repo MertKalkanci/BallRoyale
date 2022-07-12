@@ -45,8 +45,8 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         currentVelocity = Rigidbody.velocity;
-        if (isGrounded)
-            Rigidbody.AddForce(-movementForce * InputMovement.x * Vector3.forward + movementForce * InputMovement.y * Vector3.right, ForceMode.Force);//Ana hareket
+        
+        Rigidbody.AddForce(-movementForce * InputMovement.x * Vector3.forward + movementForce * InputMovement.y * Vector3.right, ForceMode.Force);//Ana hareket
 
         if(currentVelocity.magnitude > MaxSpeed)//Hýz Limitini Geçtiyse
         {
